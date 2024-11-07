@@ -23,7 +23,7 @@ def dbInit():
     conn.close()
 
     ### CREATE TABLES ###
-    # CONNECT TO THE test_FINLAND DATABASE
+    # CONNECT TO THE a3_finland DATABASE
     conn = psycopg2.connect(
         host="localhost",
         database="a3_finland",
@@ -122,7 +122,7 @@ def dbInit():
     cur.close()
     conn.close()
 
-    # CONNECT TO THE test_SWEDEN DATABASE
+    # CONNECT TO THE a3_sweden DATABASE
     conn = psycopg2.connect(
         host="localhost",
         database="a3_sweden",
@@ -209,7 +209,7 @@ def dbInit():
     cur.close()
     conn.close()
 
-    # CONNECT TO THE test_NORWAY DATABASE
+    # CONNECT TO THE a3_norway DATABASE
     conn = psycopg2.connect(
         host="localhost",
         database="a3_norway",
@@ -302,7 +302,7 @@ def dbInit():
     cur.close()
     conn.close()
 
-    # CONNECT TO THE test_ESTONIA DATABASE
+    # CONNECT TO THE a3_estonia DATABASE
     conn = psycopg2.connect(
         host="localhost",
         database="a3_estonia",
